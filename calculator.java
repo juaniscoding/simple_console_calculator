@@ -3,6 +3,7 @@ import java.util.concurrent.*;
 
 
 
+
 public class calculator {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("This program is made by JUAN SANTHOSH of class VI E  OF SPA");
@@ -14,13 +15,13 @@ public class calculator {
         System.out.println("Choose 4-DIVISION");
         System.out.println("Choose 0-AREA");
         System.out.println("CHOOSE  5-CONVERSION OF CURRENCY");
-
+        System.out.println("CHOOSE 6 FOR POWER(^)");
 
 
 
         byte mode = sc.nextByte();
 
-            if (mode < 6 && mode >= 0) {
+            if (mode < 7 && mode >= 0) {
 
 
             switch (mode) {
@@ -179,6 +180,20 @@ public class calculator {
                         System.out.println(USDtoBeConverted + " USD is = " + finalValue + " AUD");
 
                     }
+                case 6:
+                    System.out.println("Enter the base value");
+                    double baseValue =sc.nextDouble();
+                    System.out.println("Enter the exponent value");
+                    double exponentValue =sc.nextDouble();
+                    System.out.println(Math.pow(baseValue,exponentValue));
+break;
+
+
+
+
+
+
+
             }
 
 
@@ -219,8 +234,7 @@ public class calculator {
 
         }
 
-
+    }
         }
-        }
 
-// To create exe do cmd "jar cvf jcc.jar calculator.class"//
+// "//To create exe do cmd "jar cvf jcc.jar calculator.class
