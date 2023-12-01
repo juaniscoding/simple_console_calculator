@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jcc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/1.6.1.0/jcc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
