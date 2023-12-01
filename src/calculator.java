@@ -5,7 +5,7 @@ import java.lang.*;
 
 
 public class calculator {
-    public static void main(String[] args) throws InterruptedException, IOException {
+    public static void main(String[] args) throws InterruptedException{
 
           System.out.println("This program is made by JUAN SANTHOSH of class VI E  OF SPA");
 
