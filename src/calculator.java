@@ -70,11 +70,11 @@ public class calculator {
                     System.out.println("MULTIPLIER");
                     System.out.println("          -made by juan");
                     System.out.println("Enter first digit");
-                    double noTobemultiplied = sc.nextDouble();
+                    double multiply= sc.nextDouble();
                     System.out.println("Enter second digit");
-                    double multiplier = sc.nextDouble();
+                    double multiply2 = sc.nextDouble();
                     double product;
-                    product = noTobemultiplied * multiplier;
+                    product = multiply* multiply2;
                     System.out.println("The product is " + product);
                     if (product < 0) {
                         System.out.println("The product " + product + " is negative");
