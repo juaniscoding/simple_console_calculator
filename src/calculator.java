@@ -33,11 +33,11 @@ public class calculator {
                     System.out.println("ADD");
                     System.out.println("        -made by juan");
                     System.out.println("Enter first digit");
-                    double a = sc.nextDouble();
+                    double add1 = sc.nextDouble();
                     System.out.println("Enter second digit");
-                    double b = sc.nextDouble();
+                    double add2 = sc.nextDouble();
                     double answer;
-                    answer = a + b;
+                    answer = add1 + add2;
                     System.out.println("sum is=" + answer);
                     if (answer < 0) {
                         System.out.println("The sum " + answer + " is not negative");
@@ -55,9 +55,9 @@ public class calculator {
                     System.out.println("Enter first digit");
                     double primDigit = sc.nextDouble();
                     System.out.println("Enter second digit");
-                    double Subcontractor = sc.nextDouble();
+                    double Subtractor = sc.nextDouble();
                     double difference;
-                    difference = primDigit - Subcontractor;
+                    difference = primDigit - Subtractor;
                     System.out.println("difference  is=" + difference);
                     if (difference < 0) {
                         System.out.println("The difference " + difference + " is negative");
