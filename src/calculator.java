@@ -7,7 +7,7 @@ import java.lang.*;
 public class calculator {
     public static void main(String[] args) throws InterruptedException{
 
-          System.out.println("This program is made by JUAN SANTHOSH from class VI E");
+        System.out.println("This program is made by JUAN SANTHOSH from class VI E");
 
 
         Scanner sc = new Scanner(System.in);
@@ -23,7 +23,7 @@ public class calculator {
 
         byte mode = sc.nextByte();
 
-            if (mode < 7 && mode >= 0) {
+        if (mode < 7 && mode >= 0) {
 
 
             switch (mode) {
@@ -148,8 +148,8 @@ public class calculator {
                     if (mcValue == 1) {
 
                         System.out.println("Enter USD to be converted to INR");
-                            double USDtoBeConverted = sc.nextDouble();
-                            finalValue = USDtoBeConverted * 83.18;
+                        double USDtoBeConverted = sc.nextDouble();
+                        finalValue = USDtoBeConverted * 83.18;
 
                         System.out.println(USDtoBeConverted + " USD is = " + finalValue + " INR");
                     } else if (mcValue == 2) {
@@ -185,7 +185,7 @@ public class calculator {
                     System.out.println("Enter the exponent value");
                     double exponentValue =sc.nextDouble();
                     System.out.println(Math.pow(baseValue,exponentValue));
-break;
+                    break;
 
 
 
@@ -238,7 +238,7 @@ break;
 
 
 
-        }
+    }
 }
 
 // "//To create exe do cmd "jar cvf jcc.jar calculator.class"
