@@ -1,6 +1,7 @@
-import java.util.*;
+import java.util.Scanner;
 import java.util.concurrent.*;
 import java.lang.*;
+
 
 //made by Juan Santhosh
 
@@ -181,16 +182,15 @@ public class calculator {
 
                     }
                 case 6:
+
+                    double baseValue,exponentValue;
+
                     System.out.println("Enter the base value");
-                    double baseValue =sc.nextDouble();
+                     baseValue =sc.nextDouble();
                     System.out.println("Enter the exponent value");
-                    double exponentValue =sc.nextDouble();
-                    System.out.println(Math.pow(baseValue,exponentValue));
+                     exponentValue =sc.nextDouble();
+                    System.out.println(Math.pow (baseValue,exponentValue));
                     break;
-
-
-
-
 
 
 
