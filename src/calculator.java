@@ -6,9 +6,25 @@ import java.lang.*;
 //made by Juan Santhosh
 
 public class calculator {
+    static void add(double add1, double add2)
+
+    {
+        System.out.println("ADD");
+        System.out.println("        -made by juan");
+        System.out.println("Enter first digit");
+
+        System.out.println("Enter second digit");
+
+        double answer;
+        answer = add1 + add2;
+        System.out.println("sum is=" + answer);
+        if (answer < 0) {
+            System.out.println("The sum " + answer + " is not negative");
+        } else {
+            System.out.println("The sum " + answer + " is not negative");
+        }
+    }
     public static void main(String[] args) throws InterruptedException{
-
-
         System.out.println("This program is made by JUAN SANTHOSH from class VI E");
 
 
@@ -32,18 +48,7 @@ public class calculator {
 
                 // ADD //
                 case 1:
-                    System.out.println("ADD");
-                    System.out.println("        -made by juan");
-                    System.out.println("Enter first digit");
-                    double add1 = sc.nextDouble();
-                    System.out.println("Enter second digit");
-                    double add2 = sc.nextDouble();
-                    double answer;
-                    answer = add1 + add2;
-                    System.out.println("sum is=" + answer);
-                    if (answer < 0) {
-                        System.out.println("The sum " + answer + " is not negative");
-                    } else System.out.println("The sum " + answer + " is not negative");
+
 
                     break;
 
