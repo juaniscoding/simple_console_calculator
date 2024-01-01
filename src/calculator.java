@@ -275,14 +275,7 @@ break;
                     break;
 
             }
-
-
         }
-
-
-
-
     }
 }
-
 // "//To create exe do cmd "jar cvf jcc.jar calculator.class"
