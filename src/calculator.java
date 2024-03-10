@@ -4,6 +4,7 @@ import java.lang.*;
 
 
 //made by Juan Santhosh
+// Just a simple calculator 
 
 public class calculator {
     static void add(double add1, double add2) {
