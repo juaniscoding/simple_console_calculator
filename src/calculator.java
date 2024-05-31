@@ -272,7 +272,9 @@ break;
 
                 case 1:
                     System.out.println("Thanks for using this program");
-                    TimeUnit.SECONDS.sleep(1);
+                    TimeUnit.MILLISECONDS.sleep(50);
+                    System.out.println("Made by Juan Santhosh");
+                    TimeUnit.MILLISECONDS.sleep(50);
                     break;
 
             }
