@@ -6,8 +6,9 @@
       <sourceFolder url="file://$MODULE_DIR$/1.6.0" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/1.6.1.0" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="22" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

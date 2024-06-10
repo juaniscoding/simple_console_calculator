@@ -17,10 +17,10 @@ public class calculator {
         double answer;
         answer = add1 + add2;
         System.out.println("sum is=" + answer);
-        if (answer < 0) {
+        if (answer > 0) {
             System.out.println("The sum " + answer + " is not negative");
         } else {
-            System.out.println("The sum " + answer + " is not negative");
+            System.out.println("The sum " + answer + " is negative");
         }
     }
 
@@ -69,34 +69,7 @@ public class calculator {
         } else System.out.println("The quotient " + quotient + " is not negative");
     }
 
-    static void area() {
-        System.out.println("press 3 for 3d (cubes,cuboids)");
-        System.out.println("press 2 for 2d (squares rectangles )");
-        Scanner arsc = new Scanner(System.in);
-        double areaMode = arsc.nextDouble();
 
-
-        //Area 2d/3d/circle//
-        if (areaMode == 3) {
-            System.out.println("Enter length");
-            final double length3 = arsc.nextDouble();
-            System.out.println("Enter breadth");
-            final double breadth3 = arsc.nextDouble();
-            System.out.println("Enter height");
-            final double height3 = arsc.nextDouble();
-            System.out.println("The area is " + length3 * breadth3 * height3 + " cm^3");
-
-
-        } else if (areaMode == 2) {
-            System.out.println("Enter breadth");
-            double b2 = arsc.nextDouble();
-            System.out.println("Enter height");
-            double l2 = arsc.nextDouble();
-            System.out.println("The area is " + l2 * b2 + " cm^2");
-
-
-        }
-    }
 
     static void convcurr()
 
@@ -168,7 +141,6 @@ public class calculator {
         System.out.println("Choose 2-SUBTRACT");
         System.out.println("Choose 3-MULTIPLICATION");
         System.out.println("Choose 4-DIVISION");
-        System.out.println("Choose 0-AREA");
         System.out.println("CHOOSE  5-CONVERSION OF CURRENCY");
         System.out.println("CHOOSE 6 FOR POWER(^)");
 
@@ -220,11 +192,6 @@ break;
                     double div2=sc.nextDouble();
                     divider(div1,div2);
                    break;
-                // area//
-                case 0:
-                    area();
-                    break;
-
                 case 5:
                     convcurr();
                     break;
